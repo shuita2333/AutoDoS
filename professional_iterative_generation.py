@@ -57,7 +57,7 @@ def basic_test(args, data_config):
 
     target_agent = AgentFactory.get_factory('TargetAgent', args)
     with open(
-            f'test_data/data/success/{data_config.attack1LM}_{data_config.attack2LM}_{data_config.num}_{data_config.method}.json',
+            f'test_data/data/{data_config.attack1LM}_{data_config.attack2LM}_{data_config.num}_{data_config.method}.json',
             'r', encoding='utf-8') as file:
         content = file.read()
         review_agent_synthesize_list = ast.literal_eval(content)
