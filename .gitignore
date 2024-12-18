@@ -3,6 +3,6 @@ log/*
 .idea/*
 __pycache__/*
 model/*
-#test_data/*
+test_data/*
 main.py
 performance_test_demo.py
